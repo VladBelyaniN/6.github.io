@@ -1,0 +1,137 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.container {
+  width: 1300px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #333;
+  align-items: center;
+}
+.menu__links {
+  display: flex;
+  justify-content: space-between;
+  width: 680px;
+  list-style: none;
+}
+.menu__elem {
+  display: flex;
+  align-items: center;
+}
+.menu__elem img {
+  margin-right: 20px;
+}
+.menu__elem a,
+.menu__elem span {
+  color: #000;
+  font-family: "Circe";
+  text-decoration: none;
+}
+.menu__link {
+  list-style: none;
+}
+.menu__brand {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  text-transform: uppercase;
+  color: #EC1B2E;
+  width: 260px;
+  line-height: 140%;
+  height: 40px;
+  font-family: "Circe Bold";
+}
+.menu__button {
+  font-family: "Circe Bold";
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff;
+  background-color: #EC1B2E;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.menu__button:hover {
+  background-color: #ab2a35;
+}
+
+.submenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.submenu__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.submenu__link {
+  list-style: none;
+  text-decoration: none;
+  color: #000;
+  margin-left: 20px;
+  font-family: "Circe Bold";
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.submenu__link a {
+  text-decoration: none;
+  color: #000;
+}
+
+.button {
+  font-family: "Circe Bold";
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 42px;
+  padding-right: 42px;
+  color: #fff;
+  background-color: #EC1B2E;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #ab2a35;
+}
+
+.slider {
+  width: 100%;
+  background-image: url("./images/back.png");
+  background-position: center;
+  background-size: cover;
+  padding-top: 130px;
+  padding-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.slider h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 140%;
+  font-family: "Circe ExtraBold";
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 100px;
+  background-color: rgba(51, 51, 51, 0.5);
+  width: 540px;
+}
+.slider .container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}/*# sourceMappingURL=style.css.map */
